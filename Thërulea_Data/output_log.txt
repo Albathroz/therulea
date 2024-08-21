@@ -1,0 +1,88 @@
+Initialize engine version: 5.4.1f1 (649f48bbbf0f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\Backup\Jogo Thërulea + GDD\Thërulea_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\Backup\Jogo Thërulea + GDD\Thërulea_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\Backup\Jogo Thërulea + GDD\Thërulea_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\Backup\Jogo Thërulea + GDD\Thërulea_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\Backup\Jogo Thërulea + GDD\Thërulea_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\Backup\Jogo Thërulea + GDD\Thërulea_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\Backup\Jogo Thërulea + GDD\Thërulea_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\Backup\Jogo Thërulea + GDD\Thërulea_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.985 seconds
+Platform assembly: E:\Backup\Jogo Thërulea + GDD\Thërulea_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\Backup\Jogo Thërulea + GDD\Thërulea_Data\Managed\System.dll (this message is harmless)
+desktop: 2560x1080 60Hz; virtual: 2560x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.396900 ms
+ArgumentException: An element with the same key already exists in the dictionary.
+  at System.Collections.Generic.Dictionary`2[System.String,System.String].Add (System.String key, System.String value) [0x00000] in <filename unknown>:0 
+  at TextTranslationManager.LoadTranslation (System.String fileName) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.CachedInvokableCall`1[System.String].Invoke (System.Object[] args) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.InvokableCallList.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEventBase.Invoke (System.Object[] parameters) [0x00000] in <filename unknown>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.Press () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Button.OnPointerClick (UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute (IPointerClickHandler handler, UnityEngine.EventSystems.BaseEventData eventData) [0x00000] in <filename unknown>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[IPointerClickHandler] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.EventFunction`1 functor) [0x00000] in <filename unknown>:0 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMousePress(MouseButtonEventData)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent(Int32)
+UnityEngine.EventSystems.StandaloneInputModule:ProcessMouseEvent()
+UnityEngine.EventSystems.StandaloneInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+ 
+(Filename:  Line: -1)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.888700 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at ButtonFunctions.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ButtonFunctions.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at ButtonFunctions.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PageSound.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 768.
+Total: 0.894200 ms (FindLiveObjects: 0.091000 ms CreateObjectMapping: 0.036300 ms MarkObjects: 0.724800 ms  DeleteObjects: 0.040800 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.269500 ms
+NullReferenceException: Object reference not set to an instance of an object
+  at ButtonFunctions.Awake () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 778.
+Total: 0.761600 ms (FindLiveObjects: 0.085800 ms CreateObjectMapping: 0.037300 ms MarkObjects: 0.630900 ms  DeleteObjects: 0.005900 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 505c -> priority: 1 
